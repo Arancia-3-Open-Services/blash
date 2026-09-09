@@ -1,0 +1,7 @@
+const butterflyset = 
+`{
+    "scanservices":true,"3-factor-configuration":"onstack","butterfly":true,"vinil":"onstack, href, fd","type":"ccj","ccj":8,"butiwe":{
+        "scanservices":true,"isonline":true,"configs":"|stack|fd|on|","enumerate-3s":true,"tokenization":true,"onstack":false
+    }
+}`
+const butterflyformatted = JSON.parse(butterflyset)

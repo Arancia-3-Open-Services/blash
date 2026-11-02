@@ -1,4 +1,5 @@
-include include/general.mak
+SK = $(SKGCC)
+include $(SK)/include/general.mak
 .PHONY: onstack
 onstack:
 	$(Q)cp -r $(SKGCC)/blash/blashmodules/lazybum.A3 $(BLASH_DIR)/home/user/configs/bhomhom/blashmodules/lazybum.A3
